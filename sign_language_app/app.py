@@ -27,6 +27,11 @@ CLASS_LABELS = {
 MODEL_PATH = 'model/final_efficientnetb0.pth'
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
+
+st.write("Looking for model at:", MODEL_PATH)
+st.write(os.listdir("model"))
+st.write(os.path.exists(MODEL_PATH))
+
 TRANSFORM = transforms.Compose([
     transforms.ToPILImage(),
     transforms.Resize((IMG_SIZE, IMG_SIZE)),
@@ -151,6 +156,7 @@ if image_to_process:
     st.markdown("---")
     st.markdown("## **Predicted Letter:**")
     st.success(f"## {predicted_char}")
+
 
 
 
