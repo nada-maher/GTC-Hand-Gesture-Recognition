@@ -24,7 +24,7 @@ CLASS_LABELS = {
     28: ('waw', 'و'), 29: ('ya', 'ي'), 30: ('yaa', 'يا'), 31: ('zay', 'ز')
 }
 
-MODEL_PATH = 'C:/Users/hp/Downloads/python/python/sign_language_app/model/final_efficientnetb0.pth'
+MODEL_PATH = 'model/final_efficientnetb0.pth'
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 TRANSFORM = transforms.Compose([
@@ -151,6 +151,7 @@ if image_to_process:
     st.markdown("---")
     st.markdown("## **Predicted Letter:**")
     st.success(f"## {predicted_char}")
+
 
 
 
