@@ -42,10 +42,10 @@ The dataset contains labeled images of hand gestures corresponding to Arabic let
 - OpenCV
 - Streamlit (for web interface)
 - numpy, pandas, matplotlib, etc.
-## Links
+## Project Links
 
-- [Watch the project demo video]([https://drive.google.com/your-video-link](https://drive.google.com/file/d/12pJy_jfXQhRQtlCpAEuFRKGNpA4Q_Ilw/view))  
-- [Try the deployed app]([https://your-app-link.com](https://4lnfwgwp6penpz4mbqz9qk.streamlit.app/))
+- **Demo Video**: [Watch the project demonstration](https://drive.google.com/file/d/12pJy_jfXQhRQtlCpAEuFRKGNpA4Q_Ilw/view?usp=sharing)
+- **Live App**: [Try the deployed app](https://4lnfwgwp6penpz4mbqz9qk.streamlit.app/)
 ## Usage
 ```bash
 # Install dependencies
